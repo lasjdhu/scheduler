@@ -1,5 +1,5 @@
 [package]
-name = "todo-leptos"
+name = "scheduler"
 version = "0.1.0"
 edition = "2021"
 
@@ -43,7 +43,7 @@ codegen-units = 1
 panic = "abort"
 
 [package.metadata.leptos]
-output-name = "todo-leptos"
+output-name = "scheduler"
 site-root = "target/site"
 site-pkg-dir = "pkg"
 tailwind-input-file = "style/tailwind.css"

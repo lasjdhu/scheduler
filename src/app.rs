@@ -9,8 +9,8 @@ pub fn App() -> impl IntoView {
     provide_meta_context();
 
     view! {
-        <Stylesheet id="leptos" href="/pkg/todo-leptos.css"/>
-        <Title text="Welcome to Leptos"/>
+        <Stylesheet id="leptos" href="/pkg/scheduler.css"/>
+        <Title text="Scheduler"/>
         <Router fallback=|| {
             let mut outside_errors = Errors::default();
             outside_errors.insert_with_default_key(AppError::NotFound);
